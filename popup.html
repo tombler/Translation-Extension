@@ -12,15 +12,7 @@
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
       }
-      #status {
-        /* avoid an excessively wide status text */
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        max-width: 400px;
-      }
     </style>
-
     <!--
       - JavaScript and HTML must be in separate files: see our Content Security
       - Policy documentation[1] for details and explanation.
@@ -30,13 +22,8 @@
     <script src="popup.js"></script>
   </head>
   <body>
-    <!-- <div id="status"></div>
-    <img id="image-result" hidden> -->
-    
-      <input id="textToTranslate" type="text" placeholder="Type Spanish word">
-      <button id="translate">Translate</button>
-    
-      <a href="http://translate.yandex.com/" target="_blank">Powered by Yandex.Translate</a>
+    <div>Total times visited Facebook:</div>
+    <div>Total times visited Gmail:</div>
   </body>
 </html>
 
